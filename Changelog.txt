@@ -1,0 +1,10 @@
+4.0.7-1 for 1.12.2
+New
+
+Changes
+- Removed recipes for deprecated food can items (_BIG_G_)
+
+Fixes
+- Fixed moon sapphire ore not being affected by fortune (_BIG_G_)
+- Fixed Alien Villagers generating a new list of trades on top of the old one everytime the player got enough reputation with them (_BIG_G_)
+- Fixed titanium dust having a malformed item model (_BIG_G_)
