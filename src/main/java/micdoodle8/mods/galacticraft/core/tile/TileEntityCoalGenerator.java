@@ -158,14 +158,14 @@ public class TileEntityCoalGenerator extends TileBaseUniversalElectricalSource i
     @Override
     public boolean isItemValidForSlot(int slotID, ItemStack itemstack)
     {
-        //        if (itemstack.getItem() != Items.COAL || itemstack.getItem() != Item.getItemFromBlock(Blocks.COAL_BLOCK))
-        //        {
-        //            return ItemUtil.hasOreDictSuffix(itemstack, "coal") || ItemUtil.hasOreDictSuffix(itemstack, "charcoal");
-        //        } else
-        //        {
-        //            return itemstack.getItem() == Item.getItemFromBlock(Blocks.COAL_BLOCK);
-        //        }
-        return true;
+                if (itemstack.getItem() != Items.COAL || itemstack.getItem() != Item.getItemFromBlock(Blocks.COAL_BLOCK))
+                {
+                    return ItemUtil.hasOreDictSuffix(itemstack, "coal") || ItemUtil.hasOreDictSuffix(itemstack, "charcoal");
+                } else
+                {
+                    return itemstack.getItem() == Item.getItemFromBlock(Blocks.COAL_BLOCK);
+                }
+        //return true;
     }
 
     @Override
