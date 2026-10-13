@@ -1,0 +1,27 @@
+## DOES IT EVEN WORK? ##
+
+- Laser Turret does not alert mobs it hits? ex. making a passive animal like a pig run away upon a successful hit
+- Using a wrench on an energy beam receiver without crouching rotates the bounding box of the block but not model of the block?
+- What does the communications dish do... it has a battery slot but no gui or energy storage but has a max energy draw of 100???????
+- Mars dungeon bricks are supposed to play a dripping sound effect when bacterial sludge is placed on top of them, but they don???
+- What do strange seeds do?
+
+## FIX ##
+
+- Tin windows not having get Itemstack assign and thus not allowing the player to pick the blocks with MMB
+- Grates fail to display their name when placed inside a fluid block, flowing or source
+- Deconstructor will return items from recipes even if said items come from reusable items, ex. harvestcraft's many cookware items
+- Geothermal Generator does nothing when placed on top galaxy space vents due to a change somewhere in GC's code
+- Coal blocks cannot be shift clicked into a coal generator while coal and charcoal can
+
+## MAYBE ##
+
+- Give the short range teleporter a better model?
+- Give the magnetic crafting table an auto crafting cooldown?
+
+## TODO ##
+
+- Let coal generators run off of coal coke as well
+- Make Chromatic applicator accept more than just vanilla  dyes
+- Volcanic pickaxe as no recipe and should be locked behind venus?
+- Sticky desh pickaxe has no recipe and should be locked behind Mars?
