@@ -1,6 +1,7 @@
 checklist.create_grapple.key=Create Grapple Hook
 checklist.equip_oxygen_suit.key=Equip Oxygen Suit
 checklist.equip_parachute.key=Equip Parachute
+
 command.gcastrominer.count=The Astro Miner count for player %s is %s
 commands.emergencykit=%s was given an emergency kit!
 commands.dimensionteleport=%s was sent into the atmosphere%s
@@ -19,6 +20,7 @@ commands.ssinvite.not_found=Could not find space station for your username, you 
 commands.ssinvite.wrong_usage=Not enough command arguments! Usage: %s
 commands.ssnewowner.wrong_usage=Cannot recognise Space Station ID# - does it even exist? Usage: %s
 commands.ssuninvite.no_player=Couldn't find player with username %s on your Space Station list!
+
 container.cargoloader.name=Cargo Loader
 container.cargounloader.name=Cargo Unloader
 container.fuelloader.name=Fuel Loader
@@ -35,14 +37,17 @@ container.solaradvanced.name=Advanced Solar Panel
 container.solarbasic.name=Basic Solar Panel
 container.spaceship.name=Tier 1 Rocket
 container.treasurechest.name=Treasure Chest
+
 death.attack.meteor_chunk=%1$s was hit by meteor debris!
 death.attack.oxygen_suffocation=%1$s ran out of oxygen!
 death.attack.spaceship_crash=%1$s's rocket smashed itself into the ground. Oops.
 death.attack.sulphuric_acid=%1$s dissolved in sulphuric acid!
 death.attack.thermal=%1$s forgot thermal protection
+
 dimension.moon.name=Moon
 dimension.overworld.name=Overworld
 dimension.sun.name=Sun
+
 entity.alien_villager.name=Alien Villager
 entity.buggy.name=Buggy
 entity.celestial_screen.name=Celestial Screen
@@ -62,7 +67,9 @@ entity.meteor_chunk.name=Meteor Chunk
 entity.oxygen_bubble.name=Oxygen Bubble
 entity.para_chest.name=Parachest
 entity.rocket_t1.name=Tier 1 Rocket
+
 galaxy.milky_way=Milky Way
+
 gc.configgui.allow_liquids_grating=Allow liquids to flow into Grating
 gc.configgui.alternate_canister_recipe=Alternate Canister Recipe
 gc.configgui.asteroids_flags=Challenge Mode Flags
@@ -134,6 +141,7 @@ gc.configgui.title=Galacticraft Core Config
 gc.configgui.use_old_fuel_fluid_i_d=Use legacy fuelgc fluid registration
 gc.configgui.use_old_oil_fluid_i_d=Use legacy oilgc fluid registration
 gc.configgui.whitelist_co_f_h_core_gen=Whitelist CoFHCore World Gen
+
 gui.battery_slot.desc.0=Battery slot, place battery here
 gui.battery_slot.desc.1=or use a connected power source
 gui.bed_fail.message=Uh oh, what if the oxygen runs out when I am asleep?  I'll need a Cryogenic Chamber to sleep in space!
@@ -423,6 +431,7 @@ gui.tracking.message=Tracking activated. Now I'll need to right-click this on a 
 gui.village.warning.no_freq_mod=I'll need to equip a Frequency Module to communicate with them!
 gui.warning.invalid_thermal=Invalid Thermal Protection!
 gui.warning=WARNING!
+
 item.air_fan.name=Oxygen Fan
 item.air_vent.name=Oxygen Vent
 item.basic_item.ambient_thermal_controller.name=Ambient Thermal Controller
@@ -497,15 +506,14 @@ item.meteoric_iron_raw.name=Raw Meteoric Iron
 item.nose_cone.name=Nose Cone
 item.oil_canister.name=Filled Oil Canister
 item.oil_canister_partial.name=Partially Filled Oil Canister
-item.oil_extractor.name=Portable Oil Extractor
 item.oxygen_concentrator.name=Oxygen Concentrator
 item.oxygen_gear.name=Oxygen Gear
 item.oxygen_mask.name=Oxygen Mask
-item.oxygen_tank_heavy_empty.name=Empty Heavy Oxygen Tank
+#item.oxygen_tank_heavy_empty.name=Empty Heavy Oxygen Tank
 item.oxygen_tank_heavy_full.name=Heavy Oxygen Tank
-item.oxygen_tank_light_empty.name=Empty Light Oxygen Tank
+#item.oxygen_tank_light_empty.name=Empty Light Oxygen Tank
 item.oxygen_tank_light_full.name=Light Oxygen Tank
-item.oxygen_tank_med_empty.name=Empty Medium Oxygen Tank
+#item.oxygen_tank_med_empty.name=Empty Medium Oxygen Tank
 item.oxygen_tank_med_full.name=Medium Oxygen Tank
 item.parachute_black.name=Black Parachute
 item.parachute_blue.name=Light Blue Parachute
@@ -540,10 +548,13 @@ item.steel_pole.name=Steel Pole
 item.steel_shovel.name=Heavy Duty Shovel
 item.steel_sword.name=Heavy Duty Sword
 item.tier1.desc=Tier 1
+
 item_desc.powerdraw.name=Power required: %s /s
 item_desc.shift.name=Press %s for more info
+
 item_group.galacticraft_blocks=Galacticraft Blocks
 item_group.galacticraft_items=Galacticraft Items
+
 jei.arc_lamp.info=Very bright light in the facing direction. Place high up for best effect! Rotate using Standard Wrench.
 jei.electric_compressor.info=Electric version of the Ingot Compressor, twice as fast! Even faster with Tier 2 power. A Hopper can fill or empty this machine.
 jei.electric_compressor.appeng.info=For automation with AE2, set up your recipes with ingots from 2 different mods. See https:goo.gl/BwY15G for full info.
@@ -554,6 +565,7 @@ jei.oxygen_collector.info=Collects breathable oxygen mixture from the Overworld 
 jei.oxygen_distributor.info=Creates a bubble environment in space where players (and other creatures) can breath. Supply this with breathable oxygen mixture from Oxygen Collector or Oxygen Storage Module.
 jei.oxygen_sealer.info=Fills 1 room in your space base with a breathable atmosphere. Supply this with breathable oxygen mixture from Oxygen Collector or Oxygen Storage Module. All walls of the room must be solid. \nFind leaks using Sensor Glasses! \nMaximum room size for 1 Oxygen Sealer is 10x10x8 blocks. Use multiple Oxygen Sealers for larger rooms!
 jei.wrench.info=Most Galacticraft machines can be rotated by right-clicking with the Standard Wrench. \nMost electrical machines can change their power and other input and output sides using this and Shift-clicking.
+
 keybind.map.name=Galaxy Map
 keybind.sensortoggle.name=Toggle Sensor Goggles Mode
 keybind.spaceshipinv.name=Open Spaceship Inventory
@@ -563,10 +575,14 @@ keybind.vehicleforward.name=Vehicle Forward Key
 keybind.vehicleleft.name=Vehicle Left Key
 keybind.vehicleright.name=Vehicle Right Key
 keybind.vehicleup.name=Vehicle Up Key
+
 moon.moon=Moon
-planet.curseforge=CurseForge
+
+#planet.curseforge=CurseForge
+
 newversion.failed.name=Galacticraft update check failed! Trying again in 15 seconds
 newversion.success.name=Galacticraft remote version found:
+
 planet.jupiter=Jupiter
 planet.mercury=Mercury
 planet.neptune=Neptune
@@ -574,12 +590,17 @@ planet.overworld=Overworld
 planet.saturn=Saturn
 planet.uranus=Uranus
 planet.venus=Venus
+
 satellite.spacestation.overworld=Overworld Space Station
+
 schematic.moonbuggy.name=Moon Buggy
 schematic.rocket_t1.name=Tier 1 Rocket
 schematic.rocket_t2.name=Tier 2 Rocket
+
 solarsystem.sol=Sol
+
 star.sol=Sol
+
 tile.air_lock_controller.name=Air Lock Controller
 tile.air_lock_frame.description=Air Lock Frames, when arranged in a portal-like formation, with a single block replaced with a controller, will function as a working air lock.
 tile.air_lock_frame.name=Air Lock Frame
