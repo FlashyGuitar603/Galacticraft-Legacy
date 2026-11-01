@@ -7,6 +7,7 @@
 
 package micdoodle8.mods.galacticraft.core.inventory;
 
+import micdoodle8.mods.galacticraft.core.energy.EnergyUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Items;
@@ -15,6 +16,7 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 
 import micdoodle8.mods.galacticraft.core.tile.TileEntityCoalGenerator;
+import net.minecraft.item.crafting.FurnaceRecipes;
 
 public class ContainerCoalGenerator extends Container
 {
@@ -60,6 +62,7 @@ public class ContainerCoalGenerator extends Container
     @Override
     public ItemStack transferStackInSlot(EntityPlayer entityPlayer, int index)
     {
+		// TODO somehow make this accept all possible fuel items, not just coal and charcoal
         ItemStack stack = ItemStack.EMPTY;
         Slot slot = this.inventorySlots.get(index);
 
