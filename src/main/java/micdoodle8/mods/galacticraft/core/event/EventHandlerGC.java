@@ -377,8 +377,8 @@ public class EventHandlerGC
                         {
                             return;
                         }
-
-                        entityLiving.attackEntityFrom(DamageSourceGC.oxygenSuffocation, Math.max(ConfigManagerCore.suffocationDamage / 2, 1));
+						// This was commented out due to entities from many mods not having support for calacticraft's "can breathe in space" logic, making mobs from mods like techguns that spawn on celestial bodies suffocate.
+						//entityLiving.attackEntityFrom(DamageSourceGC.oxygenSuffocation, Math.max(ConfigManagerCore.suffocationDamage / 2, 1));
 
                         GCCoreOxygenSuffocationEvent suffocationEventPost = new GCCoreOxygenSuffocationEvent.Post(entityLiving);
                         MinecraftForge.EVENT_BUS.post(suffocationEventPost);
