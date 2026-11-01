@@ -56,6 +56,7 @@ public class CompatibilityManager
     private static boolean     modMekLoaded           = Loader.isModLoaded(modidMekanism);
     private static boolean     modAetherIILoaded;
     private static boolean     modAppEngLoaded;
+	private static boolean     modRefStorLoaded;
     private static boolean     modPneumaticCraftLoaded;
     private static boolean     modBOPLoaded           = Loader.isModLoaded("biomesoplenty");
     private static boolean     modEIOLoaded           = Loader.isModLoaded("enderio");
@@ -214,6 +215,11 @@ public class CompatibilityManager
             CompatibilityManager.modAppEngLoaded = true;
             GalacticraftCore.logger.info("Activating AppliedEnergistics2 compatibility features.");
         }
+		if (Loader.isModLoaded("refinedstorage"))
+		{
+			CompatibilityManager.modRefStorLoaded = true;
+			GalacticraftCore.logger.info("Activating Refined Storage compatibility features.");
+		}
         if (Loader.isModLoaded("pneumaticcraft"))
         {
             CompatibilityManager.modPneumaticCraftLoaded = true;
@@ -344,6 +350,10 @@ public class CompatibilityManager
     {
         return CompatibilityManager.modAppEngLoaded;
     }
+	public static boolean isRefStorLoaded()
+	{
+		return CompatibilityManager.modRefStorLoaded;
+	}
 
     public static boolean isBOPLoaded()
     {
