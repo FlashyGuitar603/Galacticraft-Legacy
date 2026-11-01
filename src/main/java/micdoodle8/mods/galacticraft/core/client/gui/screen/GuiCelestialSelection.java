@@ -617,13 +617,7 @@ public class GuiCelestialSelection extends GuiScreen
                     }
                     GalacticraftCore.packetPipeline.sendToServer(new PacketSimple(PacketSimple.EnumSimplePacket.S_TELEPORT_ENTITY, GCCoreUtil.getDimensionID(mc.world), new Object[] {dimensionID}));
 
-                    if (dimensionID == 666)
-                    {
-                        mc.displayGuiScreen(new CFPage());
-                    } else
-                    {
-                        mc.displayGuiScreen(new GuiTeleporting(dimensionID));
-                    }
+					mc.displayGuiScreen(new GuiTeleporting(dimensionID));
 
                 } catch (Exception e)
                 {
